@@ -24,9 +24,9 @@
 ### Keyphrases
 | Keyphrase | Description | Context |
 | -------------- | -------- | -------- |
-| `{scpsleft}`   | Live scps count | All triggers |
-| `{damagetype}` | SCP termination cause | SCP' death |
-| `{mtf}`        | MTF unit name | MTF arrival |
+| {scpsleft}     | Live scps count | All triggers |
+| {damagetype}   | SCP termination cause | SCP's death |
+| {mtf}          | MTF unit name | MTF arrival |
 ### Config example
 ```yaml
 CassieAdvancedSettings:
