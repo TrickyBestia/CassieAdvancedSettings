@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace CassieAdvancedSettings
 {
-    class Plugin : Plugin<PluginConfig>
+    public class Plugin : Plugin<PluginConfig>
     {
         public override string Author { get; } = "TrickyBestia";
         public override string Name { get; } = "CassieAdvancedSettings";
