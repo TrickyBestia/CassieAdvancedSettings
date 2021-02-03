@@ -13,7 +13,7 @@ namespace CassieAdvancedSettings
         public override string Author { get; } = "TrickyBestia";
         public override string Name { get; } = "CassieAdvancedSettings";
         public override string Prefix { get; } = "CassieAdvancedSettings";
-        public override Version RequiredExiledVersion { get; } = new Version(2, 1, 19);
+        public override Version RequiredExiledVersion { get; } = new Version(2, 1, 30);
         public override PluginPriority Priority { get; } = PluginPriority.Default;
         public override Version Version => Assembly.GetName().Version;
 
